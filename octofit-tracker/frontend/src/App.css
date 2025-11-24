@@ -1,0 +1,112 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e1ff 100%);
+  color: #2c2c54;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6a89cc 0%, #b8e994 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  color: #2c2c54 !important;
+  font-weight: bold;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #574b90 !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #f19066 !important;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table-primary th {
+  background: #6a89cc !important;
+  color: #fff !important;
+}
+.table-info th {
+  background: #38ada9 !important;
+  color: #fff !important;
+}
+.table-warning th {
+  background: #f6b93b !important;
+  color: #fff !important;
+}
+.table-secondary th {
+  background: #574b90 !important;
+  color: #fff !important;
+}
+
+.btn {
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.btn-success {
+  background: #78e08f;
+  color: #fff;
+}
+.btn-info {
+  background: #38ada9;
+  color: #fff;
+}
+.btn-warning {
+  background: #f6b93b;
+  color: #fff;
+}
+.btn-secondary {
+  background: #574b90;
+  color: #fff;
+}
+.btn-primary {
+  background: #6a89cc;
+  color: #fff;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2c2c54;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #38ada9;
+  text-decoration: none;
+}
+a:hover {
+  color: #f19066;
+  text-decoration: underline;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.card-title {
+  color: #6a89cc;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+/* Favicon: handled in public/index.html */
